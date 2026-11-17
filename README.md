@@ -28,7 +28,7 @@ points overs, filters {'league': 'nba', 'from_date': '2024-10-01', 'home_away': 
 
 ## The data
 
-[DunkAPI](https://dunkapi.com/data/player-props) holds NBA prop lines by sportsbook from May 2023: points, rebounds, assists, threes, the combos, blocks, steals, and double- and triple-doubles, with the closing line and the opening line where held. `get_prop_history` grades each closing line against the box score; `get_prop_backtest` runs the aggregate. WNBA and men's college props work the same way with `league="wnba"` or `"ncaam"`.
+[DunkAPI](https://dunkapi.com/data/player-props?utm_source=github&utm_medium=readme&utm_campaign=nba-props-backtest) holds NBA prop lines by sportsbook from May 2023: points, rebounds, assists, threes, the combos, blocks, steals, and double- and triple-doubles, with the closing line and the opening line where held. `get_prop_history` grades each closing line against the box score; `get_prop_backtest` runs the aggregate. WNBA and men's college props work the same way with `league="wnba"` or `"ncaam"`.
 
 Credits: a player search costs 1, each page of history 10, and a backtest 25.
 
@@ -40,6 +40,6 @@ Credits: a player search costs 1, each page of history 10, and a backtest 25.
 
 This is a research tool. A past hit rate describes a sample; it is not a pick.
 
-Uses the [dunkapi](https://pypi.org/project/dunkapi/) Python client (no dependencies). DunkAPI is also a hosted MCP server for Claude, ChatGPT and Cursor: https://dunkapi.com/mcp
+Uses the [dunkapi](https://pypi.org/project/dunkapi/) Python client (no dependencies). DunkAPI is also a hosted MCP server for Claude, ChatGPT and Cursor: https://dunkapi.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=nba-props-backtest
 
 MIT licensed.
