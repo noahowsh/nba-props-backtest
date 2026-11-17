@@ -1,5 +1,7 @@
 # nba-props-backtest
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/noahowsh/nba-props-backtest/blob/main/props_backtest.ipynb)
+
 Check NBA player props against the closing line, using real sportsbook history since 2023. Two modes, one script:
 
 - **player:** every closing line for one player and market beside what he actually recorded, his over rate against the price, and what happened when the line moved.
