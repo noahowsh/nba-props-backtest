@@ -1,0 +1,2 @@
+dunkapi>=0.1.4
+pandas>=1.5
